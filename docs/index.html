@@ -9,124 +9,132 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
     <!--fontawesome 4.7-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="grid.css">
 </head>
-<body>
-  <nav role="navigation">
+<body class="greendots-background">
+  <nav role="navigation" class="bold green-background">
     <ul class="row no-bullet">
-      <li class="inline-block">About</li>
-      <li class="inline-block">Work</li>
-      <li class="inline-block">Contact</li>
+      <li class="inline-block"><a class="no-deco" href="#banner">Julia</a></li>
+      <li class="inline-block"><a class="no-deco" href="#about">About</a></li>
+      <li class="inline-block"><a class="no-deco" href="#work">Work</a></li>
+      <li class="inline-block"><a class="no-deco" href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <main role="main" class="row">
-    <header role="banner" class="row">
-      <h1 class="col-12">Julia Weng</h1>
-        <div class="col-12 img-container">
-          <div id="profile-img-frame">&nbsp;</div>
-        </div>
-      <h2>Full Stack Web Developer</h2>
+    <header role="banner" class="row" id="banner">
+      <div class="col-12">
+        <li class="inline-block"><a class="no-deco pink" href="#about">About</a></li>
+        <li class="inline-block"><a class="no-deco pink" href="#work">Work</a></li>
+        <li class="inline-block"><a class="no-deco pink" href="#contact">Contact</a></li>
+      </div>
+      <div class="col-12">
+        <div class="regular-portrait"></div>
+      </div>
+      <div class="col-12">
+        <h1 class="pink">Julia Weng</h1>
+        <h2>Full stack web developer</h2>
+    </div>
     </header>
 
-    <section id="about">
-      <div class="row">
-        <h2 class="col-12">About</h2>
-        <div class="col-12 align-left">
-          <p>Hi, I'm Julia. I am a full stack web developer based in Bellevue, WA.</p>
-          <p>Web development is my passion. I enjoy problem solving - the confusion, frustration, and then...the 'Eureka!' moment. I love learning about writing efficient code, awesome libraries, tools, and frameworks.</p>
-          <p>Before getting into programming, I was a biomedical researcher specialized in decoding the secret of DNA. Now, I am using HTML, CSS, and JavaScript to code ideas to life. Making the front and back ends communicate nicely with each other is extremely fun and exciting!</p>
-        </div>
+    <section id="about" class="row shadow">
+      <h2 class="col-12 pink">About Julia</h2>
+      <div class="col-12 align-center">
+        <p>I'm a full stack web developer based in Bellevue, WA.</p>
+        <p>I enjoy problem solving - the confusion, frustration, and then...the 'Eureka!' moment. I love learning about writing efficient code, awesome libraries and frameworks.</p>
+        <p>Before getting into programming, I was a biomedical researcher specialized in decoding the secret of DNA. Now, I am using HTML, CSS, and JavaScript to code ideas to life.</p>
       </div>
     </section>
 
-    <section id="work">
-      <div class="row">
-        <h2 class="col-12">Work</h2>
+    <section id="work" class="shadow">
+      <div class="row card">
+        <h2 class="col-12 pink">Work</h2>
         <!--weathair card-->
-        <div class="col-12 card">
           <div class="col-4">
             <img src="img/weathair_screenshot.png" class="screenshot">
-            <div class="col-12 align-center">
-              <a class="col-6 no-deco" href="https://healthy-geek-cooks.herokuapp.com/" rel="noopener noreferrer" target="_blank">App</a>
-              <a class="col-6 no-deco" href="https://github.com/julweng/healthygeekcooks" rel="noopener noreferrer" target="_blank">Code</a>
-            </div>
           </div>
-          <div class="col-8 align-left">
-            <h4 class="col-12">Air quality and Weather App</h4>
-            <p class="col-12">Look up current air quality and 5-day weather conditions in US cities</p>
+          <div class="col-8">
+            <h3 class="col-12">Air and Weather App</h3>
             <ul class="col-12 no-bullet">
-              <p>Tech Stack</p>
-              <li class="tech col-3 align-center">HTML5</li>
-              <li class="tech col-3 align-center">CSS3</li>
-              <li class="tech col-3 align-center">JavaScript</li>
-              <li class="tech col-3 align-center">jQuery</li>
+              <li class="tech align-center inline-block">HTML5</li>
+              <li class="tech align-center inline-block">&middot;</li>
+              <li class="tech align-center inline-block">CSS3</li>
+              <li class="tech align-center inline-block">&middot;</li>
+              <li class="tech align-center inline-block">JavaScript</li>
+              <li class="tech align-center inline-block">&middot;</li>
+              <li class="tech align-center inline-block">jQuery</li>
+            </ul>
+            <p class="col-12">Look up air quality and 5-day weather forecast in US cities.</p>
+            <ul class="col-12 align-center no-bullet">
+              <li class="align-center inline-block project-link"><a class="no-deco" href="https://healthy-geek-cooks.herokuapp.com/" rel="noopener noreferrer" target="_blank">App</a></li>
+              <li class="align-center inline-block project-link"><a class="no-deco" href="https://github.com/julweng/healthygeekcooks" rel="noopener noreferrer" target="_blank">Code</a></li>
             </ul>
           </div>
         </div>
 
-        <!--geekcooks card-->
-        <div class="col-12 card">
+        <div class="row card">
           <div class="col-4">
             <img src="img/geekcooks_screenshot.png" class="screenshot">
-            <div class="col-12 align-center">
-              <a class="col-6 no-deco" href="https://healthy-geek-cooks.herokuapp.com/" rel="noopener noreferrer" target="_blank">App</a>
-              <a class="col-6 no-deco" href="https://github.com/julweng/healthygeekcooks" rel="noopener noreferrer" target="_blank">Code</a>
-            </div>
           </div>
-          <div class="col-8 align-left">
-            <h4 class="col-12">Geeky Recipe App</h4>
-            <p class="col-12">Search, browse, share and create healthy geeky recipes inspired by dishes featured in fantasy fictions and games</p>
+          <div class="col-8">
+            <h3 class="col-12">Geeky Recipe App</h3>
             <ul class="col-12 no-bullet">
-              <p>Tech Stack</p>
-              <li class="tech col-3 align-center">Node.js</li>
-              <li class="tech col-5 align-center">MongoDB & Mongoose</li>
-              <li class="tech col-4 align-center">Mocha & Chai</li>
+              <li class="tech align-center inline-block">Node.js</li>
+              <li class="tech align-center inline-block">&middot;</li>
+              <li class="tech align-center inline-block">Express</li>
+              <li class="tech align-center inline-block">&middot;</li>
+              <li class="tech align-center inline-block">MongoDB</li>
+            </ul>
+            <p class="col-12">Search, browse, share and create healthy geeky recipes inspired by fantasy fictions and games.</p>
+            <ul class="col-12 align-center no-bullet">
+              <li class="align-center inline-block project-link pinkdots-background"><a class="no-deco" href="https://healthy-geek-cooks.herokuapp.com/" rel="noopener noreferrer" target="_blank">App</a></li>
+              <li class="align-center inline-block project-link"><a class="no-deco" href="https://github.com/julweng/healthygeekcooks" rel="noopener noreferrer" target="_blank">Code</a></li>
             </ul>
           </div>
         </div>
-        <!--jobseeker card-->
-        <div class="col-12 card">
+
+        <div class="row card">
           <div class="col-4">
             <img src="img/jobseeker_screenshot.png" class="screenshot">
-            <div class="col-12 align-center">
-              <a class="col-4 no-deco" href="https://job-seeker-journal.netlify.com/" rel="noopener noreferrer" target="_blank">App</a>
-              <a class="col-4 no-deco" href="https://github.com/julweng/job-seeker-journal-client" rel="noopener noreferrer" target="_blank">Client Code</a>
-              <a class="col-4 no-deco" href="https://github.com/julweng/job-seeker-journal-api" rel="noopener noreferrer" target="_blank">Server Code</a>
-            </div>
           </div>
-          <div class="col-8 align-left">
-            <h4 class="col-12">Job Seeker's App</h4>
-            <p class="col-12">A simple and interesting app for users to maintain a record of jobs they are applying, chart their skills, and keep track of their job application process.</p>
+          <div class="col-8">
+            <h3 class="col-12">Job Seeker's App</h3>
             <ul class="col-12 no-bullet">
-              <p>Tech Stack</p>
-              <li class="tech col-4 align-center">React</li>
-              <li class="tech col-4 align-center">Redux</li>
-              <li class="tech col-4 align-center">Enzyme</li>
+              <li class="tech align-center inline-block">React</li>
+              <li class="tech align-center inline-block">&middot;</li>
+              <li class="tech align-center inline-block">Redux</li>
+              <li class="tech align-center inline-block">&middot;</li>
+              <li class="tech align-center inline-block">Node.js</li>
+              <li class="tech align-center inline-block">&middot;</li>
+              <li class="tech align-center inline-block">MongoDB</li>
+            </ul>
+            <p class="col-12">Allow users to maintain a record of jobs they are applying, chart skills, and keep track of their job application process.</p>
+            <ul class="col-12 align-center">
+              <li class="align-center inline-block project-link"><a class="no-deco" href="https://job-seeker-journal.netlify.com/" rel="noopener noreferrer" target="_blank">App</a></li>
+              <li class="align-center inline-block project-link"><a class="no-deco" href="https://github.com/julweng/job-seeker-journal-client" rel="noopener noreferrer" target="_blank">Client</a></li>
+              <li class="align-center inline-block project-link"><a class="no-deco" href="https://github.com/julweng/job-seeker-journal-api" rel="noopener noreferrer" target="_blank">Server</a></li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact">
-      <div class="row">
-        <h2 class="col-12">Contact Me</h2>
-        <div class="col-12 align-center">
-          If you’d like to know more or discuss any opportunities, please don’t hesitate to reach out.
-        </div>
-        <ul class="col-12 no-bullet">
-          <li class="col-3">&nbsp;<li>
-          <li class="col-2 align-center"><a class="no-deco" href="mailto:julweng@gmail.com" target="_top"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a></li>
-          <li class="col-2 align-center"><a class="no-deco" href="https://github.com/julweng" rel="noopener noreferrer" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
-          <li class="col-2 align-center"><a class="no-deco" href="https://www.linkedin.com/in/jultzweng" rel="noopener noreferrer" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
-          <li class="col-3">&nbsp;<li>
-        </ul>
-
+    <section id="contact" class="row shadow">
+      <h2 class="col-12 pink">Contact Me</h2>
+      <div class="col-12 align-center">
+        If you’d like to know more or discuss any opportunities, please don’t hesitate to reach out.
+      </div>
+      <ul class="col-12 no-bullet align-center">
+        <li class="align-center inline-block"><a class="no-deco" href="mailto:julweng@gmail.com" target="_top"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a></li>
+        <li class="align-center inline-block"><a class="no-deco" href="https://github.com/julweng" rel="noopener noreferrer" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+        <li class="align-center inline-block"><a class="no-deco" href="https://www.linkedin.com/in/jultzweng" rel="noopener noreferrer" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+      </ul>
     </section>
 
   </main>
-  <footer role="content-info">&copy; Julia Tzu-Ya Weng, 2018</footer>
+  <footer role="content-info" class="green-background">&copy; Julia Tzu-Ya Weng, 2018</footer>
 </body>
 </html>
