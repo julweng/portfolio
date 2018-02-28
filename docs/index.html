@@ -10,12 +10,12 @@
     <!--fontawesome 4.7-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <!--google font-->
-    <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Patua+One|Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="grid.css">
 </head>
 <body class="greendots-background">
-  <nav role="navigation" class="bold green-background">
+  <nav role="navigation" class="bold green-background hidden">
     <ul class="row no-bullet">
       <li class="inline-block"><a class="no-deco" href="#banner">Julia</a></li>
       <li class="inline-block"><a class="no-deco" href="#about">About</a></li>
@@ -32,7 +32,7 @@
         <li class="inline-block"><a class="no-deco pink" href="#contact">Contact</a></li>
       </div>
       <div class="col-12">
-        <div class="regular-portrait"></div>
+        <div class="regular-portrait" id="portrait"></div>
       </div>
       <div class="col-12">
         <h1 class="pink">Julia Weng</h1>
@@ -40,7 +40,7 @@
     </div>
     </header>
 
-    <section id="about" class="row shadow">
+    <section id="about" class="row shadow hidden">
       <h2 class="col-12 pink">About Julia</h2>
       <div class="col-12 align-center">
         <p>I'm a full stack web developer based in Bellevue, WA.</p>
@@ -49,7 +49,7 @@
       </div>
     </section>
 
-    <section id="work" class="shadow">
+    <section id="work" class="row shadow">
       <div class="row card">
         <h2 class="col-12 pink">Work</h2>
         <!--weathair card-->
@@ -122,7 +122,7 @@
       </div>
     </section>
 
-    <section id="contact" class="row shadow">
+    <section id="contact" class="row shadow hidden">
       <h2 class="col-12 pink">Contact Me</h2>
       <div class="col-12 align-center">
         If you’d like to know more or discuss any opportunities, please don’t hesitate to reach out.
@@ -133,7 +133,6 @@
         <li class="align-center inline-block"><a class="no-deco" href="https://www.linkedin.com/in/jultzweng" rel="noopener noreferrer" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
       </ul>
     </section>
-
   </main>
   <footer role="content-info" class="green-background">&copy; Julia Tzu-Ya Weng, 2018</footer>
   <script
