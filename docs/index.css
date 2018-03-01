@@ -195,7 +195,7 @@ li.tech {
   color: #f7f4ef;
 }
 
-.card a:hover {
+.card a:hover, .card a:focus {
   color: #ff7f7f;
 }
 
