@@ -211,6 +211,7 @@ li.project-link {
 
 li.project-link:hover {
   background-color: #f7f4ef;
+  color: #ff7f7f;
 }
 
 #contact a {
