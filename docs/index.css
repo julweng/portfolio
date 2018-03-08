@@ -195,7 +195,7 @@ li.tech {
   color: #f7f4ef;
 }
 
-.card a:hover, .card a:focus {
+.card a:hover, .card a:focus, .card a:visited {
   color: #ff7f7f;
 }
 
@@ -209,7 +209,7 @@ li.project-link {
   cursor: pointer;
 }
 
-li.project-link:hover {
+li.project-link:hover, li.project-link:visited {
   background-color: #f7f4ef;
   color: #ff7f7f;
 }
