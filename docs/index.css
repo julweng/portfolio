@@ -256,16 +256,25 @@ li.project-link:hover, li.project-link:visited {
   .center-portrait {
     background-size: 13rem 14rem;
   }
+
+  header h1, header h2 {
+    font-size: 110%;
+  }
 }
 
-@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
-
-header h1, header h2 { 
-	width: 30rem; 
-	margin: 0 auto;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 3s steps(25, end),
-	           blink-caret .5s step-end infinite alternate;
+header h1, header h2 {
+  overflow: hidden; /* content hidden until animation */
+  white-space: nowrap; /* maintain single line */
+  margin: 0 auto; /* scrolling effect as typing happens */
+  letter-spacing: .1rem; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .85s step-end infinite;
 }
+
+/* typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+

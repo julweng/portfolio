@@ -2,6 +2,8 @@
 
 const navFooter = $('nav, footer');
 const header = $('header');
+const h1Text = $('header h1').text();
+const h2Text = $('header h2');
 const all = $('nav, footer, header, section');
 const headerAbout = $("header a[href='#about']");
 const headerWork = $("header a[href='#work']");
