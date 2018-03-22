@@ -256,8 +256,8 @@ li.project-link:hover, li.project-link:visited {
     background-size: 13rem 14rem;
   }
 
-  header h1, header h2 {
-    font-size: 80%;
+  header h1, header h2, header a, nav a, main {
+    font-size: 90%;
   }
 }
 
@@ -266,7 +266,6 @@ header h1, header h2 {
   overflow: hidden; /* content hidden until animation */
   white-space: nowrap; /* maintain single line */
   margin: 0 auto; /* scrolling effect as typing happens */
-  letter-spacing: .1rem; /* Adjust as needed */
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .85s step-end infinite;
