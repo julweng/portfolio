@@ -50,38 +50,7 @@ body {
   font-size: 20px;
   text-align: center;
   line-height: 1.5;
-  /*-webkit-animation: 20s linear 0s normal none infinite animate;
-	-moz-animation: 20s linear 0s normal none infinite animate;
-	-ms-animation: 20s linear 0s normal none infinite animate;
-	-o-animation: 20s linear 0s normal none infinite animate;
-	animation: 20s linear 0s normal none infinite animate;*/
 }
-/* 
-@-webkit-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@-moz-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@-ms-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@-o-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
-*/
 
 header, footer {
   color: #f7f4ef;
@@ -324,7 +293,7 @@ header h1, header h2 {
   display: block;
   width: 1rem;
   height: 1rem;
-  background: rgba(41, 163, 163, 0.4);
+  background: rgba(41, 163, 163, 0.2);
   animation: animate 25s linear infinite;
   bottom: -10rem;
 }
@@ -358,14 +327,14 @@ header h1, header h2 {
   left: 40%;
   width: 3.75rem;
   height: 3.75rem;
-  animation-delay: 18s;
+  animation-delay: 6s;
 }
 
 .bubbles li:nth-child(5) {
   left: 50%;
   width: 4rem;
   height: 4rem;
-  animation-delay: 20s;
+  animation-delay: 8s;
 }
 
 .bubbles li:nth-child(6)
@@ -373,14 +342,14 @@ header h1, header h2 {
   left: 65%;
   width: 6.75rem;
   height: 6.75rem;
-  animation-delay: 3s;
+  animation-delay: 10s;
 }
 
 .bubbles li:nth-child(7) {
   left: 5%;
   width: 10rem;
   height: 10rem;
-  animation-delay: 8s;
+  animation-delay: 12s;
 }
 
 .bubbles li:nth-child(8)
@@ -388,7 +357,7 @@ header h1, header h2 {
   left: 75%;
   width: 2rem;
   height: 2rem;
-  animation-delay: 0.5s;
+  animation-delay: 14s;
 }
 
 .bubbles li:nth-child(9)
@@ -396,7 +365,7 @@ header h1, header h2 {
   left: 90%;
   width: 4.5rem;
   height: 4.5rem;
-  animation-delay: 10s;
+  animation-delay: 16s;
 }
 
 .bubbles li:nth-child(10)
@@ -404,7 +373,7 @@ header h1, header h2 {
   left: 15%;
   width: 2.5rem;
   height: 2.5rem;
-  animation-delay: 25s;
+  animation-delay: 18s;
 }
 
 .bubbles li:nth-child(11)
@@ -412,7 +381,7 @@ header h1, header h2 {
   left: 55%;
   width: 8rem;
   height: 8rem;
-  animation-delay: 12s;
+  animation-delay: 20s;
 }
 
 .bubbles li:nth-child(12)
@@ -420,7 +389,7 @@ header h1, header h2 {
   left: 5%;
   width: 5.5rem;
   height: 5.5rem;
-  animation-delay: 17s;
+  animation-delay: 22s;
 }
 
 .bubbles li:nth-child(13)
@@ -428,7 +397,7 @@ header h1, header h2 {
   left: 95%;
   width: 7rem;
   height: 7rem;
-  animation-delay: 7s;
+  animation-delay: 24s;
 }
 
 @keyframes animate {

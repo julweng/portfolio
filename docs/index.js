@@ -37,6 +37,7 @@ function handleNavigation(link, sectionToShow) {
   link.click((e) => {
     e.preventDefault();
     e.stopPropagation();
+    $('body').css('overflow', 'visible');
     all.addClass('hidden');
     sectionToShow.removeClass('hidden');
     if(header.hasClass('hidden')) {
@@ -46,6 +47,7 @@ function handleNavigation(link, sectionToShow) {
 }
 
 $(function() {
+  $('body').css('overflow', 'hidden');
   handleMouseOver(headerAbout, 'left-portrait');
   handleMouseOver(headerWork, 'center-portrait');
   handleMouseOver(headerContact, 'right-portrait');
