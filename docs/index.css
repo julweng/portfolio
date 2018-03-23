@@ -271,12 +271,12 @@ header h1, header h2 {
     blink-caret .85s step-end infinite;
 }
 
-/* typing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
 
+/* bubble animation */
 .bubbles {
   position: absolute;
   top: 0;
@@ -373,30 +373,6 @@ header h1, header h2 {
   width: 2.5rem;
   height: 2.5rem;
   animation-delay: 18s;
-}
-
-.bubbles li:nth-child(11)
-{
-  left: 55%;
-  width: 8rem;
-  height: 8rem;
-  animation-delay: 20s;
-}
-
-.bubbles li:nth-child(12)
-{
-  left: 5%;
-  width: 5.5rem;
-  height: 5.5rem;
-  animation-delay: 22s;
-}
-
-.bubbles li:nth-child(13)
-{
-  left: 95%;
-  width: 7rem;
-  height: 7rem;
-  animation-delay: 24s;
 }
 
 @keyframes animate {
