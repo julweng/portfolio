@@ -137,10 +137,6 @@ header a {
   background-size: 21rem 21rem;
 }
 
-.center-portrait {
-  background-image: url('img/center.png');
-}
-
 section {
   min-height: 12.5rem;
   padding: 3% 0;

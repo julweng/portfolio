@@ -49,7 +49,7 @@ function handleNavigation(link, sectionToShow) {
 $(function() {
   $('body').css('overflow', 'hidden');
   handleMouseOver(headerAbout, 'left-portrait');
-  handleMouseOver(headerWork, 'center-portrait');
+  handleMouseOver(headerWork, 'regular-portrait');
   handleMouseOver(headerContact, 'right-portrait');
   handleMouseOut();
   handleNavigation(headerAbout, about);
